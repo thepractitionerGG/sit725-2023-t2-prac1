@@ -1,6 +1,6 @@
 function changeText() {
     // this should change the displlay text
-    let textList = ['Stop Clicking',' stop Clicking please','i said stop','please stop','dont Click'];
+    let textList = ['Click 1',' Click 2','Click 3','Click 4','Click 5'];
     let randomNumber = getRandomNumber(0, textList.length - 1);
     console.log(randomNumber);
     document.getElementById('header').innerHTML = textList[randomNumber];
